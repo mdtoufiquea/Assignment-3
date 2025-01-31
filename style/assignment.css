@@ -8,11 +8,8 @@
         position: relative;
         top: 80px;
     }
-    .box-0, .footer{
+     .footer, .pawsome, .persian{
         flex-direction: column;
-    }
-    .for, .pet{
-        width: 100%;
     }
 }
 
