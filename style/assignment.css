@@ -1,5 +1,5 @@
 @media screen and (max-width:576px) {
-    .link-1, .titlee, .icon-01, .last-1{
+    .link-1, .titlee, .icon-01, .last-1, .price{
         visibility: hidden;
         display: none;
     }
@@ -24,27 +24,22 @@
 @keyframes pink-pong {
     from{
         left: 0;
-        top: 0px;
     }
 
     to{
-        left:calc(100% - 100px);
-        top: 100px;
+        left:calc(100% - 50px);
     }
 }
 
 .stage{
-    height: 200px;
     border-radius: 16px;
-    background-color: rgb(255, 207, 241);
-    
 }
 
 .ball{ 
-    width: 100px;
-    height: 100px;
+    width:50px;
+    height:50px;
     border-radius: 50%;
-    background-color: red;
+    background-color: rgb(253, 190, 200);
     position: relative;
-    animation: pink-pong 2s ease-in-out 1s infinite alternate;
+    animation: pink-pong 3s ease-in-out 1s infinite alternate;
 }
